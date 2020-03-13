@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A101AB6A-DC69-DEBE-24EE-19474F411805" name="Estudiante">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:24:23 UTC</createdTime>
+<ownerDesignName>prueba_sql</ownerDesignName>
+<engineerTo>
+<item key="B8A60A16-6325-AE38-35E0-7EA5175AC20C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Estudiante_ID" id="5987EC49-97ED-3502-292C-C572B6CBF9C3">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:24:35 UTC</createdTime>
+<ownerDesignName>prueba_sql</ownerDesignName>
+<engineerTo>
+<item key="B8A60A16-6325-AE38-35E0-7EA5175AC20C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Estudiante" id="4F27B9A1-D08E-8CD3-9E87-C33F025B6A77">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:24:52 UTC</createdTime>
+<ownerDesignName>prueba_sql</ownerDesignName>
+<engineerTo>
+<item key="B8A60A16-6325-AE38-35E0-7EA5175AC20C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Curso_ID" id="78B90EC6-E9D9-F535-5BD4-F9EBB140C2F7">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:29:04 UTC</createdTime>
+<generatorID>94F2C648-A1BC-A231-7AB6-6DE7E63971FD</generatorID>
+<ownerDesignName>prueba_sql</ownerDesignName>
+<engineerTo>
+<item key="B8A60A16-6325-AE38-35E0-7EA5175AC20C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CC827A30-375C-0E9F-2713-73C0CD09646E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93ED66DE-6A86-FDD9-2C01-6633894202AE" name="Estudiante PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:24:50 UTC</createdTime>
+<ownerDesignName>prueba_sql</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B8A60A16-6325-AE38-35E0-7EA5175AC20C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5987EC49-97ED-3502-292C-C572B6CBF9C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
